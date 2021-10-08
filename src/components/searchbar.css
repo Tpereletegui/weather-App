@@ -1,0 +1,35 @@
+.form{
+    width: 100%;
+}
+
+.input{
+    background-color: transparent;
+    color:white;
+    border-bottom: 2px solid #FFDD93;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-radius:  0;
+    margin-bottom: 50px;
+}
+
+.button {
+    background-color: #FFDD93;
+    color: black;
+    border: 0.5px solid whitesmoke;
+    margin-left: 15px;
+    border-radius: 5px; 
+    height: 35px;
+    width: 80px;
+    }   
+
+    .button:hover{
+        border: 2px solid whitesmoke; 
+        background-color: white;
+        color: black;
+    }
+
+
+
+
+	

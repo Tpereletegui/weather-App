@@ -1,0 +1,16 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.navbar{
+  margin-bottom: 100px;
+}

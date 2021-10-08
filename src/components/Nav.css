@@ -1,0 +1,17 @@
+#logoHenry {
+  margin-right: 20px;
+  
+  
+  
+}
+
+.container{
+  margin: 0px auto;
+  display: flex;
+  justify-content: space-between;
+  background-color: transparent;
+  width: 100%;
+
+}
+
+
