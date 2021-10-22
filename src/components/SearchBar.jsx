@@ -1,5 +1,10 @@
 import React, { useState } from "react";
-import './searchbar.css'
+import './searchbar.css';
+import {Button, ButtonGroup, TextField} from "@mui/material";
+import {HomeIcon} from "@mui/icons-material";
+import { mdiCloudSearch } from '@mdi/js';
+import {Icon} from "@mdi/react";
+import icon from "../favicon-32x32.png";
 
 export default function SearchBar({onSearch}) {
   //defino estado local para ir guardando lo que escriba el 
@@ -21,15 +26,18 @@ export default function SearchBar({onSearch}) {
       setCity("");
       
     }}  className="form">
-      <input
-        type="text"
-        placeholder="Ciudad..."
-        value={city}
-        onChange={ e=> setCity(e.target.value)}
-        className="input" />
+        <icon />
+      
+        <TextField style={{ backgroundColor: '#FFFFFF', height: '40px', marginTop: 40, borderRadius: 5}} size="small" id="filled-basic" label="City..." variant="standard" value={city} onChange={ e=> setCity(e.target.value)}  />
 
-
-      <input type="submit" value="Agregar" className="button"/>
+      <Button
+      type="submit"
+      style={{
+        marginLeft: 10,
+        fontSize: 14
+      }} size="large" variant="contained"  style={{marginTop: 40, backgroundColor: '#00ADB5', marginLeft: 5}} >
+      <Icon path={mdiCloudSearch} size="24px"/>
+      </Button>
     </form>
   );
 };

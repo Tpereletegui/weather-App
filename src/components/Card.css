@@ -3,19 +3,21 @@
 .card {
   margin: 40px;
   width: 18rem;
-  /* background-color: transparent; */
-  color: whitesmoke;
+   background-color: #EEEEEE; 
+  color: black;
   font-size: large;
+  margin-top: 200px;
+  margin-bottom: 0px;
   font-weight: 600;
   /* background-image: linear-gradient(to right top, #000000, #0f0f0f, #191919, #212121, #2a2a2a); */
-  background-image: linear-gradient(to right top, #000000, #121212, #1d1d1d, #282828, #343434);
+ 
   border-radius: 15px;
   
   
 }
 .card:hover{
   
-  box-shadow: 2px 2px  0px 0px #FFDD93;
+  box-shadow: 2px 2px  0px 0px white;
   
   
   
@@ -23,7 +25,7 @@
 
 .card-title {
   margin-bottom: 25px;
-  color: #FFDD93;
+  color: #222831;
   font-size: xx-large;
   font-weight: 600;
   font-family: 'Times New Roman', Times, serif;
@@ -36,7 +38,11 @@
   justify-content: flex-end;
   margin-right: 8px;
   margin-top: 8px;
+  margin-left: 240px;
   background-color: transparent;
+  color: black;
+  width: 37px;
+  border-radius: 5px;
 }
 
 .card-body {
@@ -47,11 +53,11 @@
 
 .btn {
   background-color: transparent;
-  color: rgb(253, 253, 250);
+  color: black;
   font-weight: 400;
   border: none;
-  font-size: x-large;
-  height: 39px;
+  font-size: medium;
+  height: 30px;
   padding-top: 0;
   
  
@@ -60,9 +66,15 @@
 .btn:hover{
   /* border-color:rgb(247, 233, 233) ; */
   /* border: 0.4px solid white; */
-  color:white;
-  box-shadow:  2px 2px  0px 0px #FFDD93;
+  color:black;
+  box-shadow:  2px 2px  0px 0px black;
   
   
+}
+
+
+.iconoClima{
+  background-color: #00ADB5;
+  border-radius: 50%;
 }
 

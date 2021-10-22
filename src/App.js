@@ -6,6 +6,7 @@ import Cards from './components/Cards.jsx';
 //importo el hook { useState } que usaré dentro de la función App
 import { useState } from 'react'; 
 
+
 export default function App() {
   //defino mi state cities y su función seteadore (setState) = setCities
   //el valor inicial de cities será un array vacío ([]) // acordate, el primer elemento de state, es lo que declaro dentro de usestate
@@ -44,7 +45,7 @@ export default function App() {
       )};
     //defino la función onClose
     function onClose(id) {
-      setCities(oldCities => oldCities.filter(c => c.id != id));
+      setCities(oldCities => oldCities.filter(c => c.id !== id));
     }
 
   return (
